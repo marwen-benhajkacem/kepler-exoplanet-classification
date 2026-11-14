@@ -1,0 +1,14 @@
+feature,importance
+koi_prad,0.1938
+koi_model_snr,0.1042
+koi_impact,0.1016
+koi_duration,0.0682
+koi_period,0.0358
+koi_tce_plnt_num,0.0227
+koi_depth,0.0197
+koi_insol,0.0134
+koi_steff,0.0107
+koi_srad,0.0056
+koi_slogg,0.0035
+koi_kepmag,0.0023
+koi_teq,0.0005

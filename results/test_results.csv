@@ -1,0 +1,4 @@
+model,imputation,pca,cv_f1,test_f1,test_auc,precision,recall
+Decision tree,mean,False,0.851,0.8458,0.9403,0.8113,0.8835
+KNN,mean,False,0.8472,0.8492,0.9567,0.7985,0.9068
+Random forest,median,False,0.8846,0.8819,0.9732,0.8782,0.8856
