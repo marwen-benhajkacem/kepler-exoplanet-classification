@@ -1,0 +1,5 @@
+step,detail,rows,cols
+load,original KOI cumulative table,9564,49
+binary target,"dropped CANDIDATE; CONFIRMED=1, FALSE POSITIVE=0",7197,50
+column selection,"kept 13 physical features, dropped 36 columns (leakage, ids, empty, uncertainties)",7197,50
+export,"data/processed/koi_binary_clean.csv (kepid, target, features)",7197,50

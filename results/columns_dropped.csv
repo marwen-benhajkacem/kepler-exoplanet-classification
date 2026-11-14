@@ -1,0 +1,37 @@
+column,reason
+kepid,identifier (kept aside only to group rows of the same star during validation)
+kepoi_name,identifier
+kepler_name,identifier AND only filled for confirmed planets (leaks the label)
+koi_disposition,original label (replaced by `target`)
+koi_pdisposition,"LEAKAGE: disposition from the Kepler pipeline, almost the label"
+koi_score,LEAKAGE: vetting confidence score computed for the disposition
+koi_fpflag_nt,LEAKAGE: false-positive flag from vetting (also contains an invalid value 465)
+koi_fpflag_ss,LEAKAGE: false-positive flag from vetting
+koi_fpflag_co,LEAKAGE: false-positive flag from vetting
+koi_fpflag_ec,LEAKAGE: false-positive flag from vetting
+koi_teq_err1,100% missing
+koi_teq_err2,100% missing
+koi_tce_delivname,"pipeline version label, not a physical measurement"
+koi_time0bk,"arbitrary transit epoch (depends on observation start, not on the object's nature)"
+ra,"sky position, not a physical property of the signal"
+dec,"sky position, not a physical property of the signal"
+koi_period_err1,"uncertainty column (kept out: strongly correlated with its measurement, adds noise)"
+koi_period_err2,"uncertainty column (kept out: strongly correlated with its measurement, adds noise)"
+koi_time0bk_err1,"uncertainty column (kept out: strongly correlated with its measurement, adds noise)"
+koi_time0bk_err2,"uncertainty column (kept out: strongly correlated with its measurement, adds noise)"
+koi_impact_err1,"uncertainty column (kept out: strongly correlated with its measurement, adds noise)"
+koi_impact_err2,"uncertainty column (kept out: strongly correlated with its measurement, adds noise)"
+koi_duration_err1,"uncertainty column (kept out: strongly correlated with its measurement, adds noise)"
+koi_duration_err2,"uncertainty column (kept out: strongly correlated with its measurement, adds noise)"
+koi_depth_err1,"uncertainty column (kept out: strongly correlated with its measurement, adds noise)"
+koi_depth_err2,"uncertainty column (kept out: strongly correlated with its measurement, adds noise)"
+koi_prad_err1,"uncertainty column (kept out: strongly correlated with its measurement, adds noise)"
+koi_prad_err2,"uncertainty column (kept out: strongly correlated with its measurement, adds noise)"
+koi_insol_err1,"uncertainty column (kept out: strongly correlated with its measurement, adds noise)"
+koi_insol_err2,"uncertainty column (kept out: strongly correlated with its measurement, adds noise)"
+koi_steff_err1,"uncertainty column (kept out: strongly correlated with its measurement, adds noise)"
+koi_steff_err2,"uncertainty column (kept out: strongly correlated with its measurement, adds noise)"
+koi_slogg_err1,"uncertainty column (kept out: strongly correlated with its measurement, adds noise)"
+koi_slogg_err2,"uncertainty column (kept out: strongly correlated with its measurement, adds noise)"
+koi_srad_err1,"uncertainty column (kept out: strongly correlated with its measurement, adds noise)"
+koi_srad_err2,"uncertainty column (kept out: strongly correlated with its measurement, adds noise)"
